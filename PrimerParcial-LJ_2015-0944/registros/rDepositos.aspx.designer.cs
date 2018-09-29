@@ -22,13 +22,31 @@ namespace PrimerParcial_LJ_2015_0944.registros {
         protected global::System.Web.UI.WebControls.TextBox TextBoxDepositoID;
         
         /// <summary>
-        /// TextBoxCuentaID control.
+        /// ButtonBuscar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxCuentaID;
+        protected global::System.Web.UI.WebControls.Button ButtonBuscar;
+        
+        /// <summary>
+        /// CuentaDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CuentaDropDownList;
+        
+        /// <summary>
+        /// RequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator;
         
         /// <summary>
         /// TextBoxFecha control.
@@ -40,6 +58,15 @@ namespace PrimerParcial_LJ_2015_0944.registros {
         protected global::System.Web.UI.WebControls.TextBox TextBoxFecha;
         
         /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        
+        /// <summary>
         /// TextBoxConcepto control.
         /// </summary>
         /// <remarks>
@@ -47,6 +74,15 @@ namespace PrimerParcial_LJ_2015_0944.registros {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxConcepto;
+        
+        /// <summary>
+        /// RequiredFieldValidator2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
         /// TextBoxMonto control.
@@ -58,6 +94,24 @@ namespace PrimerParcial_LJ_2015_0944.registros {
         protected global::System.Web.UI.WebControls.TextBox TextBoxMonto;
         
         /// <summary>
+        /// RequiredFieldValidator3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        
+        /// <summary>
+        /// ButtonNuevo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonNuevo;
+        
+        /// <summary>
         /// ButtonGuardar control.
         /// </summary>
         /// <remarks>
@@ -65,5 +119,14 @@ namespace PrimerParcial_LJ_2015_0944.registros {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button ButtonGuardar;
+        
+        /// <summary>
+        /// ButtonEliminar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonEliminar;
     }
 }
